@@ -12,12 +12,14 @@ void jack_bauer(void)
 	/* 00:00 to 23:59 */
 	for (i = '0'; i < '3'; i++)
 	{
-		for (j = '0'; j < '4'; j++)
+		for (j = '0'; j <= '9'; j++)
 		{
 			for (k = '0'; k < '6'; k++)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
+					if (i >= '2' && b >= '4')
+						break;
 					_putchar(i);
 					_putchar(j);
 					_putchar(':');
