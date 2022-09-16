@@ -7,7 +7,7 @@
 */
 void print_number(int n)
 {
-	int m;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
@@ -19,26 +19,17 @@ void print_number(int n)
 		m = n;
 	}
 
-	if (m < 9)
+	d = m;
+	count = 1;
+
+	while (d > 9)
 	{
-		_putchar(m + 48);
+		d /= 10;
+		count *= 10;
 	}
-	else if (m < 99)
+
+	for (; count >= 1; count /= 10)
 	{
-		_putchar((m / 10) + 48);
-		_putchar((m % 10) + 48);
-	}
-	else if (m < 999)
-	{
-		_putchar(((m / 100) % 10) + 48);
-		_putchar(((m / 10) % 10) + 48);
-		_putchar((m % 10) + 48);
-	}
-	else if (m < 9999)
-	{
-		_putchar(((m / 1000) % 10) + 48);
-		_putchar(((m / 100) % 10) + 48);
-		_putchar(((m / 10) % 10) + 48);
-		_putchar((m % 10) + 48);
+		_putchar(((m / count) % 10) + 48);
 	}
 }
