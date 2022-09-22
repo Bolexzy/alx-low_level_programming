@@ -24,11 +24,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		lg = i2;
 	if (size_r <= lg + 1)
 		return (0);
-
 	r[lg + 1] = '\0';
 	i--, i2--, size_r--;
 	dr1 = n1[i] - 48, dr2 = n2[i2] - 48;
-	
 	while (lg >= 0)
 	{
 		opr = dr1 + dr2 + add;
