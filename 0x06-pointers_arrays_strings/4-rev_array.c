@@ -5,7 +5,7 @@
  *
  * @a: Array parameter.
  * @n: number of array elements.
- * Return: 
+ * Return: no return
  */
 void reverse_array(int *a, int n)
 {
