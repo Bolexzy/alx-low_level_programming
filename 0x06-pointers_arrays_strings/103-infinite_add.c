@@ -16,7 +16,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	while (n1[i] != '\0')
 		i++;
-	while (n1[i2] != '\0')
+	while (n2[i2] != '\0')
 		i2++;
 	if (i >= i2)
 		lg = i;
