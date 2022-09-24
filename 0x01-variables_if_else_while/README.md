@@ -26,5 +26,5 @@ Filename | Descriptiom
 `9-print_comb.c` | Prints all possible combinations of single-digit numbers
 `10-print_comb2.c` | Prints the numbers from 00 to 99
 `100-print_comb3.c` | Prints all possible different combinations of two digits, separated by `,`
-`101-print_comb4.c | Prints all possible different combinations of three digits, separated by `,`
+`101-print_comb4.c` | Prints all possible different combinations of three digits, separated by `,`
 `102-print_comb5.c` | Prints all possible combinations of two two-digit numbers
