@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 {
 	int cents = 0, coins = 0, quarters, dimes, nickels, couples, pennies;
 
-	if (argc == 2 && atoi(argv[1]) >= 0)
+	if (argc == 2)
 	{
 		cents = atoi(argv[1]);
 
