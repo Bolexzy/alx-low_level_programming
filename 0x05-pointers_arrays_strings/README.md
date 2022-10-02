@@ -6,7 +6,7 @@ Project done during Full Stack Software Engineering studies facilitated by ALX. 
 
 * C files are compiled using gcc -Wall -Werror -Wextra -pedantic -std=gnu89
 * C files are written according to the C90 standard
-* Tested on Ubuntu 14.04 LTS
+* Tested on Ubuntu 20.04 LTS
 
 ## Files
 
