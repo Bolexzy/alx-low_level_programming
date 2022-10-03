@@ -4,10 +4,10 @@ Module of Low-level programming and algorithm, carried out during Full Stack Sof
 
 ## Technologies
 
-*Scripts written in Bash 4.3.11(1)
-*C files are compiled using gcc 4.8.4
-*C files are written according to the C90 standard
-*Tested on Ubuntu 14.04 LTS
+* Scripts written in Bash 5.0.17(1)
+* C files are compiled using gcc 9.4.0
+* C files are written according to the C90 standard
+* Tested on Ubuntu 20.04 LTS
 
 ##Projects
 
@@ -22,3 +22,7 @@ Project name | Description
 [`0x04-more_functions_nested_loops`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x04-more_functions_nested_loops) | It aims to learn about nested loops in C language
 [`0x05-pointers_arrays_strings`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x05-pointers_arrays_strings) | It aims to learn about pointers and arrays in C language
 [`0x06-pointers_arrays_strings`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x06-pointers_arrays_strings) | It aims to learn about pointers and arrays in C language
+[`0x07-pointers_arrays_strings`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x07-pointers_arrays_strings) | It aims to learn about pointers and arrays in C language.
+[`0x08-recursion`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x08-recursion) | It aims to learn about recursion and how to implement it in C language
+[`0x09-static_libraries`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x09-static_libraries) | It aims to learn about static libraries in C language
+[`0x0A-argc_argv`](https://github.com/Bolexzy/alx-low_level_programming/tree/main/0x0A-argc_argv) | It aims to learn about how to use arguments passed to a program in C language.
