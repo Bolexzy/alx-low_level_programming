@@ -10,13 +10,11 @@
  */
 void free_char(char **grid, unsigned int height)
 {
-	if (grid != NULL && height != 0)
-	{
-		for (; height > 0; height--)
-			free(grid[height]);
-		free(grid[height]);
-		free(grid);
-	}
+	unsigned int i;
+
+	for (i = 0; i < height; i++)
+		free(grid[i]);
+	free(grid);
 }
 
 /**
