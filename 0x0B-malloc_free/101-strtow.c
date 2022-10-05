@@ -32,12 +32,12 @@ char **strtow(char *str)
 	if (str == NULL || *str == '\0')
 		return (NULL);
 	for (c = word = 0; str[c] != '\0'; c++)
-	{
 		if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			word++;
-	}
+
 	c++;
-	words = malloc(sizeof(char *) * c);
+	words = malloc(sizeof(char *) * word);
+
 	if (words == NULL || word == 0)
 	{
 		free(words);
