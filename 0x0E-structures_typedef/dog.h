@@ -18,4 +18,6 @@ typedef struct dog
 	char *owner;
 } dog;
 
+init_dog(struct dog *d, char *name, float age, char *owner);
+
 #endif
