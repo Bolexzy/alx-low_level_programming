@@ -28,8 +28,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	for (o = 0; owner[o]; o++)
 		;
 
-	my_dog2->name = malloc(sizeof(char) *(n + 1));
-	my_dog2->owner = malloc(sizeof(char) *(o + 1));
+	my_dog2->name = malloc(sizeof(char) * (n + 1));
+	my_dog2->owner = malloc(sizeof(char) * (o + 1));
 
 	if (!(my_dog2->name) || !(my_dog2->owner))
 	{
