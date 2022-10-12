@@ -16,3 +16,4 @@ All of the following are programs written in C:
 Filename | Description
 --- | ---
 `0-print_name.c` | prints a name
+`1-array_iterator.c` | Executes a function given as a parameter on each element of an array
