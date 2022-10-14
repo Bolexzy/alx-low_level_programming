@@ -34,7 +34,7 @@ void print_all(const char * const format, ...)
 					printf("%s%s", sep, str);
 					break;
 				}
-				printf("(nil)");
+				printf("%s(nil)", sep);
 				break;
 			default:
 				i++;
