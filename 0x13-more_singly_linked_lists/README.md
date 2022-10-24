@@ -21,3 +21,4 @@ Filename | Description
 `3-add_nodeint_end.c` | Adds a new node at the end of a `listint_t` list.
 `4-free_listint.c` | Frees a `listint_t` list
 `5-free_listint2.c` | Frees a `listint_t` list.
+`6-pop_listint.c` | eletes the head node of a `listint_t` linked list, and returns the head node data `(n)`.
