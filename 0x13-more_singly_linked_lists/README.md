@@ -24,3 +24,4 @@ Filename | Description
 `6-pop_listint.c` | eletes the head node of a `listint_t` linked list, and returns the head node data `(n)`.
 `7-get_nodeint.c` | Returns the nth node of a `listint_t` liinked list
 `8-sum_listint.c` | Returns the sum of all data(n) of a `listint_t` linked list.
+`9-insert_nodeint.c` | Inserts a new node at a given position
