@@ -25,3 +25,5 @@ Filename | Description
 `7-get_nodeint.c` | Returns the nth node of a `listint_t` liinked list
 `8-sum_listint.c` | Returns the sum of all data(n) of a `listint_t` linked list.
 `9-insert_nodeint.c` | Inserts a new node at a given position
+`10-delete_nodeint.c` | Deletes the node at index `index` of a `listint_t` linked list
+`100-reverse_listint.c` | Reverses a `listint_t` linked list
