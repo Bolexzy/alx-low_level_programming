@@ -28,3 +28,4 @@ Filename | Description
 `10-delete_nodeint.c` | Deletes the node at index `index` of a `listint_t` linked list
 `100-reverse_listint.c` | Reverses a `listint_t` linked list
 `101-print_listint_safe.c` | Prints a `listint_t` linked list
+`102-free_listint_safe.c` | Frees a `listint_t` list
