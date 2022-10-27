@@ -1,6 +1,6 @@
 # Singly linked lists
 
-Project done during Full Stack Software Engineering studies at Alx. It aims to learn about singly linked lists in **C** language.
+Project done during Full Stack Software Engineering studies at Alx. It aims to learn about bit manipulations in **C** language.
 
 ## Technologies
  
@@ -16,3 +16,4 @@ All of the following are programs written in C:
 Filename | Description
 --- | ---
 `0-binary_to_uint.c` | Converts a binary number to an `unsigned int`
+`1-print_binary.c` | Prints the binary representation of a number
