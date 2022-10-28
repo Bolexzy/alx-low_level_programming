@@ -19,3 +19,4 @@ Filename | Description
 `1-print_binary.c` | Prints the binary representation of a number
 `2-get_bit.c` | Returns the value of a bit at a given index
 `3-set_bit.c` | sets the value of a bit to `1` at a given index.
+`4-clear_bit.c` | Sets the value of a bit to `0` at a given index
