@@ -19,3 +19,4 @@ Filename | Description
 `1-create_file.c` | Creates a file
 `2-append_text_to_file.c | Appends text at the end of a file
 `3-cp.c` | Copies content of a file to another file
+`100-elf_header.c` | Displays the information contained in the `ELF` header at the start of an `ELF` file
