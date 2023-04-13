@@ -56,10 +56,12 @@ int binary_search_(int *array, size_t low, size_t high, int value)
   */
 int exponential_search_rec(int *array, size_t pos, size_t size, int value)
 {
-	if (pos > size || array[pos] > value)
-		return (pos);
-	printf("Value checked array[%ld] = [%d]\n", pos, array[pos]);
-	return (exponential_search_rec(array, pos * 2, size, value));
+	if (pos < size && array[pos] <= value)
+	{
+		printf("Value checked array[%ld] = [%d]\n", pos, array[pos]);
+		return (exponential_search_rec(array, pos * 2, size, value));
+	}
+	return (pos);
 }
 
 
